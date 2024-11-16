@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/case.css">
+  <title>Кейс</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="header__start">
+        <a href="/" class="logo">
+          <img src="assets/images/logo.png" alt="" class="logo__img">
+        </a>
+        <div class="header-catalog">
+          <a href="catalog/">
+            <button class="header__catalog blue">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <g clip-path="url(#clip0_89_2591)">
+                  <rect x="2.50008" y="2.50008" width="5.79603" height="5.79603" rx="1.66667" stroke="#e53c25"
+                    stroke-width="1.66667"></rect>
+                  <rect x="2.50008" y="11.7039" width="5.79603" height="5.79603" rx="2.89801" stroke="#e53c25"
+                    stroke-width="1.66667"></rect>
+                  <rect x="11.7042" y="2.50008" width="5.79603" height="5.79603" rx="2.89801" stroke="#e53c25"
+                    stroke-width="1.66667"></rect>
+                  <rect x="11.7042" y="11.7039" width="5.79603" height="5.79603" rx="1.66667" stroke="#e53c25"
+                    stroke-width="1.66667"></rect>
+                </g>
+                <defs>
+                  <clipPath id="clip0_89_2591">
+                    <rect width="20" height="20" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="header__catalog-text"> Каталог продукции </span>
+            </button>
+          </a>
+          <div class="header-catalog-wrap">
+            <div class="header-catalog__list">
+              <div class="header-catalog__section">
+                <div class="header-catalog__title">Категории</div>
+                <div class="header-catalog__section-list">
+                  <a href="izmeritelnyie-ruki/" class="header-catalog__item">Измерительные руки</a>
+                  <a href="kim/" class="header-catalog__item">Стационарные КИМы</a>
+                  <a href="lazernyie-trekeryi/" class="header-catalog__item">Лазерные трекеры</a>
+                  <a href="skaneryi/" class="header-catalog__item">Измерительные сканеры</a>
+                  <a href="zuboizmeritelnyie-mashinyi/" class="header-catalog__item">Зубоизмерительные машины</a>
+                  <a href="videoizmeritelnyie-mashinyi/" class="header-catalog__item">Видеоизмерительные машины</a>
+                  <a href="sistemyi-dlya-kontrolya-valov/" class="header-catalog__item">Системы для контроля валов</a>
+                  <a href="izmeritelnyie-golovki/" class="header-catalog__item">Измерительные головки</a>
+                  <a href="multisensornyie-kim/" class="header-catalog__item">Мультисенсорные КИМ</a>
+                  <a href="programmnoe-obespechenie-dlya-izmeritelnyix-mashin/" class="header-catalog__item">Программное
+                    обеспечение для измерительных машин</a>
+                </div>
+              </div>
+              <div class="header-catalog__section">
+                <div class="header-catalog__title">Бренды</div>
+                <div class="header-catalog__section-list">
+                  <a href="hexagon/" class="header-catalog__item">Hexagon</a>
+                  <a href="pmt/" class="header-catalog__item">PMT</a>
+                  <a href="shining/" class="header-catalog__item">Shining</a>
+                  <a href="aeh/" class="header-catalog__item">AEH</a>
+                  <a href="alicona/" class="header-catalog__item">Alicona</a>
+                </div>
+              </div>
+              <!-- 
+              <div class="header-catalog__section">
+                <div class="header-catalog__title">По категориям</div>
+                <div class="header-catalog__section-list">
+                  <a href="aviastroenie/" class="header-catalog__item">Авиастроение</a>
+                  <a href="dvigatelestroenie/" class="header-catalog__item">Двигателестроение</a>
+                  <a href="metallurgiya/" class="header-catalog__item">Металлургия</a>
+                  <a href="avtomobilestroenie/" class="header-catalog__item">Автомобилестроение</a>
+                  <a href="sudostroenie/" class="header-catalog__item">Судостроение</a>
+                  <a href="tyazheloe-mashinostroenie/" class="header-catalog__item">Тяжелое машиностроение</a>
+                </div>
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__end">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="menu__nav-item first active"><a href="/" class="menu__nav-link">Главная</a></li>
+            <li class="menu__nav-item"><a href="catalog/" class="menu__nav-link">Каталог</a></li>
+            <li class="menu__nav-item"><a href="oborudovanie-v-nalichii/" class="menu__nav-link">Оборудование в
+                наличии</a></li>
+            <li class="menu__nav-item"><a href="about.html" class="menu__nav-link">О компании</a></li>
+            <li class="menu__nav-item"><a href="blog/" class="menu__nav-link">Статьи</a></li>
+            <li class="menu__nav-item last"><a href="contacts.html" class="menu__nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="line"></div>
+        <div class="header__contacts">
+          <a href="tel:+7 (343) 303-05-10" class="phone">+7 (343) 303-05-10</a>
+          <a href="mailto:info@3-dr.ru" class="phone">info@3-dr.ru</a>
+          <button class="header__contacts-btn white js-open-modal" data-modal="1">СВЯЗАТЬСЯ</button>
+        </div>
+      </div>
+      <div class="header__icons mobile">
+        <button class="header__icons-btn js-open-modal" data-modal="1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g clip-path="url(#clip0_156_1427)">
+              <path
+                d="M2.75 12C2.75 9.17825 2.76026 7.9553 3.0912 6.99233C3.72083 5.16021 5.16021 3.72083 6.99233 3.0912C7.9553 2.76026 9.17825 2.75 12 2.75C14.8217 2.75 16.0447 2.76026 17.0077 3.0912C18.8398 3.72083 20.2792 5.16021 20.9088 6.99233C21.2397 7.9553 21.25 9.17825 21.25 12C21.25 14.8217 21.2397 16.0447 20.9088 17.0077C20.2792 18.8398 18.8398 20.2792 17.0077 20.9088C16.0447 21.2397 14.8217 21.25 12 21.25H2.75V12Z"
+                stroke="white" stroke-width="1.5"></path>
+              <path d="M9.68213 9.89551H14.3185" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+              <path d="M8 14.1042H16" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_156_1427">
+                <rect width="24" height="24" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+        <button class="header__icons-burger">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g clip-path="url(#clip0_156_1422)">
+              <path d="M6 15H18" stroke="black" stroke-width="1.5" stroke-linecap="round"></path>
+              <path d="M6 9H18" stroke="black" stroke-width="1.5" stroke-linecap="round"></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_156_1422">
+                <rect width="24" height="24" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <menu class="burger__menu mobile">
+      <div class="burger__menu-top">
+        <div class="burger__menu-header">
+          <a href="/" class="logo">
+            <img src="assets/images/logo-footer (1).png" alt="" class="logo__img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="124" height="20" viewBox="0 0 124 20" fill="none">
+              <path
+                d="M5.84118 15.8673C4.71855 15.8673 3.71871 15.6737 2.84165 15.2866C1.96961 14.8944 1.2805 14.3565 0.774313 13.6727C0.27314 12.9839 0.0150352 12.1895 0 11.2896H3.27767C3.29772 11.6667 3.42051 11.9985 3.64604 12.2851C3.87658 12.5666 4.18229 12.7853 4.56318 12.9412C4.94408 13.097 5.37258 13.175 5.84869 13.175C6.34486 13.175 6.78338 13.087 7.16428 12.911C7.54517 12.735 7.84337 12.4912 8.05887 12.1795C8.27437 11.8678 8.38213 11.5083 8.38213 11.1011C8.38213 10.6888 8.26686 10.3243 8.03632 10.0075C7.81079 9.68577 7.48503 9.43439 7.05903 9.25339C6.63804 9.0724 6.13687 8.9819 5.55551 8.9819H4.11965V6.58371H5.55551C6.04666 6.58371 6.48017 6.49824 6.85605 6.3273C7.23695 6.15636 7.53264 5.92006 7.74313 5.6184C7.95362 5.31171 8.05887 4.95475 8.05887 4.54751C8.05887 4.16038 7.96615 3.82102 7.78072 3.52941C7.6003 3.23278 7.3447 3.00151 7.01392 2.8356C6.68816 2.66968 6.30727 2.58673 5.87125 2.58673C5.43021 2.58673 5.02677 2.66717 4.66091 2.82805C4.29506 2.98391 4.00187 3.20764 3.78135 3.49925C3.56084 3.79085 3.44306 4.13273 3.42803 4.52489H0.308222C0.323257 3.63499 0.57635 2.85068 1.0675 2.17195C1.55865 1.49321 2.2202 0.962795 3.05215 0.580694C3.88911 0.193565 4.83382 0 5.88628 0C6.94877 0 7.87845 0.193565 8.67531 0.580694C9.47218 0.967823 10.0911 1.4907 10.5322 2.14932C10.9782 2.80292 11.1987 3.53695 11.1937 4.35143C11.1987 5.21619 10.9306 5.93766 10.3893 6.51584C9.85307 7.09402 9.15393 7.46104 8.29192 7.61689V7.73756C9.42457 7.88336 10.2866 8.27803 10.878 8.92157C11.4744 9.56008 11.7701 10.3595 11.765 11.3198C11.7701 12.1996 11.517 12.9814 11.0058 13.6652C10.4996 14.3489 9.80045 14.8869 8.90836 15.279C8.01627 15.6712 6.99388 15.8673 5.84118 15.8673Z"
+                fill="white"></path>
+              <path
+                d="M12.9373 19.3816V13.0543H13.9822C14.338 12.7979 14.6638 12.4359 14.9595 11.9683C15.2552 11.4957 15.5083 10.8446 15.7188 10.0151C15.9293 9.18049 16.0796 8.08949 16.1698 6.74208L16.6059 0.211161H26.7922V13.0543H28.4762V19.3665H25.3488V15.6561H16.0646V19.3816H12.9373ZM17.741 13.0543H23.6649V2.90347H19.5377L19.2972 6.74208C19.232 7.76269 19.1243 8.66767 18.9739 9.45701C18.8286 10.2464 18.6506 10.9377 18.4402 11.5309C18.2347 12.1192 18.0016 12.6269 17.741 13.0543Z"
+                fill="white"></path>
+              <path
+                d="M34.4478 20V4.0724H37.6052V6.0181H37.7481C37.8884 5.70638 38.0914 5.38964 38.357 5.06787C38.6276 4.74108 38.9784 4.46958 39.4095 4.25339C39.8455 4.03218 40.3867 3.92157 41.0333 3.92157C41.8752 3.92157 42.652 4.14279 43.3637 4.58522C44.0754 5.02262 44.6442 5.68376 45.0702 6.56863C45.4962 7.44847 45.7092 8.55204 45.7092 9.87934C45.7092 11.1714 45.5012 12.2624 45.0852 13.1523C44.6743 14.0372 44.113 14.7084 43.4013 15.1659C42.6946 15.6184 41.9028 15.8446 41.0257 15.8446C40.4043 15.8446 39.8755 15.7416 39.4395 15.5354C39.0085 15.3293 38.6552 15.0704 38.3795 14.7587C38.1039 14.4419 37.8934 14.1227 37.7481 13.8009H37.6503V20H34.4478ZM37.5827 9.86425C37.5827 10.553 37.6779 11.1538 37.8683 11.6667C38.0588 12.1795 38.3344 12.5792 38.6953 12.8658C39.0561 13.1473 39.4947 13.2881 40.0109 13.2881C40.5321 13.2881 40.9731 13.1448 41.334 12.8582C41.6948 12.5666 41.9679 12.1644 42.1534 11.6516C42.3438 11.1337 42.439 10.538 42.439 9.86425C42.439 9.19557 42.3463 8.60734 42.1609 8.09955C41.9755 7.59175 41.7023 7.19457 41.3415 6.90799C40.9806 6.62142 40.5371 6.47813 40.0109 6.47813C39.4896 6.47813 39.0486 6.61639 38.6878 6.89291C38.3319 7.16943 38.0588 7.56159 37.8683 8.06938C37.6779 8.57717 37.5827 9.17546 37.5827 9.86425Z"
+                fill="white"></path>
+              <path
+                d="M52.6831 15.8824C51.4953 15.8824 50.473 15.641 49.616 15.1584C48.764 14.6707 48.1074 13.9819 47.6463 13.092C47.1853 12.1971 46.9547 11.1388 46.9547 9.91704C46.9547 8.72549 47.1853 7.67974 47.6463 6.77979C48.1074 5.87984 48.7564 5.17848 49.5934 4.67572C50.4354 4.17295 51.4227 3.92157 52.5553 3.92157C53.3171 3.92157 54.0263 4.04475 54.6828 4.2911C55.3444 4.53243 55.9207 4.89693 56.4119 5.38462C56.908 5.8723 57.2939 6.48567 57.5696 7.22474C57.8452 7.95877 57.983 8.8185 57.983 9.80392V10.6863H48.2327V8.69532H54.9685C54.9685 8.23278 54.8682 7.82303 54.6678 7.46606C54.4673 7.1091 54.1892 6.83006 53.8333 6.62896C53.4825 6.42283 53.074 6.31976 52.608 6.31976C52.1218 6.31976 51.6908 6.43288 51.3149 6.65913C50.9441 6.88034 50.6534 7.17949 50.4429 7.55656C50.2324 7.92861 50.1246 8.34339 50.1196 8.8009V10.6938C50.1196 11.267 50.2249 11.7622 50.4354 12.1795C50.6509 12.5968 50.9541 12.9186 51.345 13.1448C51.7359 13.371 52.1995 13.4842 52.7358 13.4842C53.0916 13.4842 53.4173 13.4339 53.713 13.3333C54.0087 13.2328 54.2618 13.082 54.4723 12.8808C54.6828 12.6797 54.8432 12.4334 54.9534 12.1418L57.9154 12.3379C57.765 13.0518 57.4568 13.6752 56.9907 14.2081C56.5296 14.736 55.9332 15.1483 55.2015 15.4449C54.4748 15.7366 53.6354 15.8824 52.6831 15.8824Z"
+                fill="white"></path>
+              <path
+                d="M59.6495 4.0724H62.7092V13.1071H65.9643V4.0724H69.024V13.1071H72.2791V4.0724H75.3388V15.6561H59.6495V4.0724Z"
+                fill="white"></path>
+              <path
+                d="M82.6604 15.8824C81.4726 15.8824 80.4502 15.641 79.5932 15.1584C78.7412 14.6707 78.0847 13.9819 77.6236 13.092C77.1625 12.1971 76.932 11.1388 76.932 9.91704C76.932 8.72549 77.1625 7.67974 77.6236 6.77979C78.0847 5.87984 78.7337 5.17848 79.5707 4.67572C80.4126 4.17295 81.3999 3.92157 82.5326 3.92157C83.2944 3.92157 84.0035 4.04475 84.6601 4.2911C85.3216 4.53243 85.898 4.89693 86.3891 5.38462C86.8853 5.8723 87.2712 6.48567 87.5468 7.22474C87.8225 7.95877 87.9603 8.8185 87.9603 9.80392V10.6863H78.21V8.69532H84.9457C84.9457 8.23278 84.8455 7.82303 84.645 7.46606C84.4446 7.1091 84.1664 6.83006 83.8106 6.62896C83.4598 6.42283 83.0513 6.31976 82.5852 6.31976C82.0991 6.31976 81.6681 6.43288 81.2922 6.65913C80.9213 6.88034 80.6306 7.17949 80.4202 7.55656C80.2097 7.92861 80.1019 8.34339 80.0969 8.8009V10.6938C80.0969 11.267 80.2021 11.7622 80.4126 12.1795C80.6281 12.5968 80.9314 12.9186 81.3223 13.1448C81.7132 13.371 82.1768 13.4842 82.713 13.4842C83.0689 13.4842 83.3946 13.4339 83.6903 13.3333C83.986 13.2328 84.2391 13.082 84.4496 12.8808C84.6601 12.6797 84.8205 12.4334 84.9307 12.1418L87.8926 12.3379C87.7423 13.0518 87.4341 13.6752 86.968 14.2081C86.5069 14.736 85.9105 15.1483 85.1788 15.4449C84.4521 15.7366 83.6126 15.8824 82.6604 15.8824Z"
+                fill="white"></path>
+              <path
+                d="M97.6631 8.5822V11.1086H91.634V8.5822H97.6631ZM92.6865 4.0724V15.6561H89.6268V4.0724H92.6865ZM99.6703 4.0724V15.6561H96.6332V4.0724H99.6703Z"
+                fill="white"></path>
+              <path
+                d="M104.791 11.4178L108.948 4.0724H112.106V15.6561H109.054V8.28808L104.911 15.6561H101.732V4.0724H104.791V11.4178Z"
+                fill="white"></path>
+              <path
+                d="M121.016 15.6561V6.59125H118.85C118.264 6.59125 117.818 6.727 117.512 6.99849C117.207 7.26998 117.056 7.59175 117.061 7.9638C117.056 8.34087 117.202 8.66013 117.497 8.92157C117.798 9.17798 118.239 9.30618 118.82 9.30618H122.083V11.4781H118.82C117.833 11.4781 116.979 11.3273 116.257 11.0256C115.535 10.724 114.979 10.3042 114.588 9.76621C114.197 9.22323 114.004 8.59226 114.009 7.8733C114.004 7.11915 114.197 6.45802 114.588 5.88989C114.979 5.31674 115.538 4.87179 116.264 4.55505C116.996 4.23328 117.858 4.0724 118.85 4.0724H124V15.6561H121.016ZM113.678 15.6561L116.888 9.62293H119.948L116.746 15.6561H113.678Z"
+                fill="white"></path>
+            </svg>
+          </a>
+          <div class="burger__menu-icons">
+            <button class="header__icons-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_156_1427)">
+                  <path
+                    d="M2.75 12C2.75 9.17825 2.76026 7.9553 3.0912 6.99233C3.72083 5.16021 5.16021 3.72083 6.99233 3.0912C7.9553 2.76026 9.17825 2.75 12 2.75C14.8217 2.75 16.0447 2.76026 17.0077 3.0912C18.8398 3.72083 20.2792 5.16021 20.9088 6.99233C21.2397 7.9553 21.25 9.17825 21.25 12C21.25 14.8217 21.2397 16.0447 20.9088 17.0077C20.2792 18.8398 18.8398 20.2792 17.0077 20.9088C16.0447 21.2397 14.8217 21.25 12 21.25H2.75V12Z"
+                    stroke="white" stroke-width="1.5"></path>
+                  <path d="M9.68213 9.89551H14.3185" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                  <path d="M8 14.1042H16" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_156_1427">
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+            <button class="header__icons-burger">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_211_2147)">
+                  <path d="M6.84406 6.84351L17.1566 17.1561" stroke="#18191D" stroke-width="1.5" stroke-linecap="round">
+                  </path>
+                  <path d="M17.1559 6.84351L6.84338 17.1561" stroke="#18191D" stroke-width="1.5" stroke-linecap="round">
+                  </path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_211_2147">
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <hr class="burger__hr mobile">
+        <nav class="burger__menu-nav">
+          <ul class="burger__menu-list">
+            <li class="burger__menu-item dropdown">
+              <h4>
+                <div class="burger__menu-link dropdown-item">Каталог</div>
+              </h4>
+              <div class="dropdown-list">
+                <a href="izmeritelnyie-ruki/" class="dropdown-list__item">Измерительные руки</a>
+                <a href="kim/" class="dropdown-list__item">Стационарные КИМы</a>
+                <a href="lazernyie-trekeryi/" class="dropdown-list__item">Лазерные трекеры</a>
+                <a href="skaneryi/" class="dropdown-list__item">Измерительные сканеры</a>
+                <a href="zuboizmeritelnyie-mashinyi/" class="dropdown-list__item">Зубоизмерительные машины</a>
+                <a href="videoizmeritelnyie-mashinyi/" class="dropdown-list__item">Видеоизмерительные машины</a>
+                <a href="sistemyi-dlya-kontrolya-valov/" class="dropdown-list__item">Системы для контроля валов</a>
+                <a href="izmeritelnyie-golovki/" class="dropdown-list__item">Измерительные головки</a>
+              </div>
+            </li>
+
+            <li class="burger__menu-item">
+              <h4><a class="burger__menu-link" href="about.html">О компании</a></h4>
+            </li>
+            <li class="burger__menu-item">
+              <h4><a class="burger__menu-link" href="contacts.html">Контакты</a></h4>
+            </li>
+          </ul>
+          <a href="catalog/">
+
+            <button class="burger__menu-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <g clip-path="url(#clip0_211_2086)">
+                  <rect x="2.99988" y="3" width="6.95523" height="6.95523" rx="2" stroke="white" stroke-width="2">
+                  </rect>
+                  <rect x="2.99976" y="14.0447" width="6.95523" height="6.95523" rx="3.47762" stroke="white"
+                    stroke-width="2"></rect>
+                  <rect x="14.0447" y="3" width="6.95523" height="6.95523" rx="3.47762" stroke="white" stroke-width="2">
+                  </rect>
+                  <rect x="14.0447" y="14.0447" width="6.95523" height="6.95523" rx="2" stroke="white" stroke-width="2">
+                  </rect>
+                </g>
+                <defs>
+                  <clipPath id="clip0_211_2086">
+                    <rect width="24" height="24" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              Каталог продукции
+            </button>
+          </a>
+        </nav>
+      </div>
+      <div class="burger__menu-footer">
+        <ul class="burger__footer-list">
+          <li class="burger__footer-item">
+            <a href="tel:+7 (343) 303-05-10" class="burger__footer-item-link">
+              <img src="img/phone.svg" alt=""> +7 (343) 303-05-10</a>
+          </li>
+
+          <li class="burger__footer-item">
+            <a href="mailto:info@3-dr.ru" class="footer__item-link"><img src="img/mail.svg" alt="">info@3-dr.ru</a>
+          </li>
+
+          <li class="burger__footer-item">
+            <a href="contacts.html" class="burger__footer-item-link"><img src="img/location.svg" alt="">г. Екатеринбург,
+              ул. Волгоградская д. 49 а</a>
+          </li>
+        </ul>
+        <span class="footer__copyright"> 2023-2024 © ООО «3Д Решения» </span>
+        <span class="footer__politics">
+          <a href="policy.html" class="footer__politics-link">
+            Политика конфиденциальности</a>
+        </span>
+      </div>
+    </menu>
+    <hr class="hr mobile">
+  </header>
+  <main>
+    <section class="cases-main">
+      <div class="container">
+        <h1 class="cases-main__title">
+          Применение КИМ на производстве
+          ООО&nbsp;"Анжеромаш" для контроля зубчатых зацеплений крупных габаритов
+        </h1>
+        <picture class="cases-main__img">
+          <img src="assets/images/cases/case-main.jpg" alt="">
+        </picture>
+        <ul class="cases-main__list">
+          <li>Автоматизированная системаb</li>
+          <li>3D принтеры</li>
+          <li>Статьи на тему</li>
+        </ul>
+      </div>
+    </section>
+    <section class="cases-about cases-section">
+      <div class="container cases-about__container">
+        <div class="cases-about__info">
+          <h2 class="cases-about__title">О продукте</h2>
+          <div class="cases-about__desc">
+            ООО "Анжеромаш" занимает ключевую позицию на рынке производства редукторов для угледобывающей
+            промышленности. Одной из основных задач компании является обеспечение высококачественного контроля зубчатых
+            зацеплений, что критично для надежности и долговечности редукторов. В этом контексте особое внимание
+            уделяется применению координатных измерительных машин (КИМ) с использованием программного обеспечения
+            PC-Dmis и Quindos.
+          </div>
+        </div>
+        <picture class="cases-about__img">
+          <img src="assets/images/cases/cases-about.png" alt="">
+        </picture>
+      </div>
+    </section>
+    <section class="cases-benefits cases-section">
+      <div class="container">
+        <div class="cases-benefits__list">
+          <div class="cases-benefits__item">
+            <picture class="cases-benefits__item-bg">
+              <img src="assets/images/cases/cases-benefit-01.jpg" alt="">
+            </picture>
+            <div class="cases-benefits__item-title">Роль КИМ</div>
+            <div class="cases-benefits__item-text">В контроле зубчатых зацеплений</div>
+          </div>
+          <div class="cases-benefits__item">
+            <picture class="cases-benefits__item-bg">
+              <img src="assets/images/cases/cases-benefit-02.jpg" alt="">
+            </picture>
+            <div class="cases-benefits__item-title">Программное обеспечение</div>
+            <div class="cases-benefits__item-text">PC-Dmis и Quindos</div>
+          </div>
+          <div class="cases-benefits__item">
+            <picture class="cases-benefits__item-bg">
+              <img src="assets/images/cases/cases-benefit-03.jpg" alt="">
+            </picture>
+            <div class="cases-benefits__item-title">Преимущества</div>
+            <div class="cases-benefits__item-text">Применение КИМ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cases-role cases-section">
+      <div class="container">
+        <div class="cases-role__head">
+          <h2 class="cases-role__title">Роль КИМ в контроле зубчатых зацеплений</h2>
+          <div class="cases-role__desc">
+            Координатные измерительные машины позволяют осуществлять высокоточный контроль
+            размеров и форм зубчатых передач. С их помощью можно выполнять как контроль цилиндрических, так и конических
+            передач, что особенно важно для редукторов, используемых в угледобывающей промышленности.
+          </div>
+        </div>
+        <div class="cases-role__items">
+          <div class="cases-role__item">
+            <div class="cases-role__item-title">1. Цилиндрические передачи:</div>
+            <div class="cases-role__item-text">
+              Цилиндрические зубчатые колеса широко применяются в редукторах благодаря своей надежности и простоте
+              конструкции. КИМ обеспечивает измерение основных параметров, таких как шаг зуба, ширина зуба и профиль
+              зуба, что позволяет выявить отклонения от заданных норм.
+            </div>
+          </div>
+          <div class="cases-role__item">
+            <div class="cases-role__item-title">2. Конические передачи:</div>
+            <div class="cases-role__item-text">
+              Конические зубчатые колеса требуют более сложного контроля из-за своей геометрической формы. Используя ПО
+              Quindos, специалисты "Анжеромаш" могут осуществлять проверку углов наклона и радиусов, что критично для
+              корректного функционирования редуктора в условиях высокой нагрузки.
+            </div>
+          </div>
+        </div>
+        <div class="cases-role__gallery">
+          <div class="cases-role__gallery-item cases-role__gallery-item--xl">
+            <picture class="cases-role__gallery-img">
+              <img src="assets/images/cases/cases-role-01.jpg" alt="">
+            </picture>
+          </div>
+          <div class="cases-role__gallery-item">
+            <picture class="cases-role__gallery-img">
+              <img src="assets/images/cases/cases-role-02.jpg" alt="">
+            </picture>
+          </div>
+          <div class="cases-role__gallery-item">
+            <div class="cases-role__gallery-video">
+              <div class="cases-role__gallery-video-player">
+                <img src="assets/images/cases/cases-role-03.jpg" alt="">
+              </div>
+              <button class="cases-role__gallery-video-btn">
+                <svg width="52" height="58" viewBox="0 0 52 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M48 22.0718C53.3333 25.151 53.3333 32.849 48 35.9282L12 56.7128C6.66667 59.792 -2.92617e-06 55.943 -2.65698e-06 49.7846L-8.39932e-07 8.21539C-5.70739e-07 2.05699 6.66667 -1.79202 12 1.28718L48 22.0718Z"
+                    fill="#157D76" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cases-programs cases-section">
+      <div class="container">
+        <div class="cases-programs__head">
+          <h2 class="cases-programs__title">Программное обеспечение: PC-Dmis и Quindos</h2>
+          <div class="cases-programs__desc">
+            Использование современных программных решений значительно упрощает процесс измерения и анализа данных.
+          </div>
+        </div>
+        <div class="cases-programs__items">
+          <div class="cases-programs__item">
+            <div class="cases-programs__item-title">PC-Dmis:</div>
+            <div class="cases-programs__item-desc">
+              Это универсальное ПО позволяет автоматизировать процесс измерения, что снижает вероятность человеческой
+              ошибки. PC-Dmis поддерживает интеграцию с различными типами КИМ, обеспечивая возможность настройки под
+              специфические задачи компании.
+            </div>
+            <picture class="cases-programs__item-img">
+              <img src="assets/images/cases/cases-programs-01.jpg" alt="">
+            </picture>
+          </div>
+          <div class="cases-programs__item">
+            <div class="cases-programs__item-title">
+              Программное обеспечение: PC-Dmis и Quindos
+            </div>
+            <div class="cases-programs__item-desc">
+              Данное программное обеспечение специально разработано для контроля зубчатых зацеплений. Оно предлагает
+              широкий спектр инструментов для анализа, включая функции для оценки качества зацепления, что позволяет
+              проводить глубокую диагностику и выявлять потенциальные проблемы на ранних этапах.
+            </div>
+            <picture class="cases-programs__item-img">
+              <img src="assets/images/cases/cases-programs-02.jpg" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cases-advantages cases-section">
+      <div class="container">
+        <h2 class="cases-advantages__title">Преимущества применения КИМ</h2>
+        <div class="cases-advantages__items">
+          <div class="cases-advantages__item">
+            <div class="cases-advantages__item-title">Преимущества применения КИМ: повышение точности</div>
+            <div class="cases-advantages__item-desc">
+              Использование КИМ с ПО позволяет достигать высокой точности измерений, что критично для работы редукторов.
+            </div>
+          </div>
+          <div class="cases-advantages__item">
+            <div class="cases-advantages__item-title">Сокращение времени на контроль</div>
+            <div class="cases-advantages__item-desc">
+              Автоматизация процессов значительно сокращает время, затрачиваемое
+              на контроль, что увеличивает общую производительность.
+            </div>
+          </div>
+          <div class="cases-advantages__item">
+            <div class="cases-advantages__item-title">Улучшение качества продукции</div>
+            <div class="cases-advantages__item-desc">
+              Систематический контроль зубчатых зацеплений способствует улучшению качества конечной продукции, что
+              повышает конкурентоспособность компании на рынке. Использование КИМ с ПО позволяет достигать высокой
+              точности измерений, что критично для работы редукторов.
+            </div>
+          </div>
+          <div class="cases-advantages__item">
+            <div class="cases-advantages__item-title">Снижение затрат на производство</div>
+            <div class="cases-advantages__item-desc">
+              Раннее выявление отклонений и дефектов позволяет избежать дорогостоящих исправлений на поздних стадиях
+              производства.
+            </div>
+          </div>
+        </div>
+        <picture class="cases-advantages__img">
+          <img src="assets/images/cases/cases-role-01.jpg" alt="">
+        </picture>
+        <div class="cases-advantages__subtext">
+          Применение координатных измерительных машин на производстве ООО "Анжеромаш" для контроля зубчатых зацеплений
+          является важным элементом обеспечения качества и надежности редукторов. Использование современных программных
+          решений, таких как PC-Dmis и Quindos, значительно упрощает и ускоряет процессы измерения, повышая общую
+          эффективность производства. В условиях современного рынка это позволяет компании не только поддерживать
+          высокие стандарты качества, но и укреплять свои позиции на рынке угледобывающего оборудования.
+        </div>
+      </div>
+    </section>
+    <section class="cases-help cases-section">
+      <div class="container">
+        <h2 class="cases-help__title">Поможем решить вашу задачу</h2>
+        <div class="cases-help__content">
+          <picture class="cases-help__img">
+            <img src="assets/images/cases/cases-help.png" alt="">
+          </picture>
+          <form action="#" class="cases-help__form">
+            <div class="form-item">
+              <label for="" class="form__label"></label>
+              <input type="text" class="form__input" placeholder="Компания" name="company">
+            </div>
+            <div class="form-item">
+              <label for="" class="form__label"></label>
+              <input type="text" class="form__input" placeholder="Номер телефона" name="tel">
+            </div>
+            <div class="form-item">
+              <label for="" class="form__label"></label>
+              <textarea class="form__input" placeholder="Сообщение" name="text" id="" cols="30" rows="7"></textarea>
+            </div>
+            <div class="form-checkbox checkbox">
+              <input type="checkbox" name="" id="check-form" class="checkbox__input" checked="">
+              <label for="check-form" class="checkbox__label">
+                Я даю свое согласие на <a href="policy.html">обработку персональных данных</a>
+              </label>
+            </div>
+            <button class="form__btn btn btn--wide">ОТПРАВИТЬ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="latest-news">
+      <div class="container">
+        <div class="latest-news__head">
+          <h2 class="latest-news__title">Последние новости</h2>
+          <a href="#" class="latest-news__btn">ВСЕ НОВОСТИ</a>
+        </div>
+        <div class="latest-news__list">
+          <div class="latest-news__item">
+            <picture class="latest-news__item-img">
+              <img src="assets/images/cases/news-01.jpg" alt="">
+            </picture>
+            <div class="latest-news__item-info">
+              <div class="latest-news__item-date">19.07.2023</div>
+              <div class="latest-news__item-title">Крупнейшая выставка обрабатывающей промышленности в Астане</div>
+              <a href="" class="latest-news__item-link">Читать</a>
+            </div>
+          </div>
+          <div class="latest-news__item">
+            <picture class="latest-news__item-img">
+              <img src="assets/images/cases/news-02.jpg" alt="">
+            </picture>
+            <div class="latest-news__item-info">
+              <div class="latest-news__item-date">19.07.2023</div>
+              <div class="latest-news__item-title">Апгрейд и ТО измерительной системы Alicona InfiniteFocus G5</div>
+              <a href="" class="latest-news__item-link">Читать</a>
+            </div>
+          </div>
+          <div class="latest-news__item">
+            <picture class="latest-news__item-img">
+              <img src="assets/images/cases/news-03.jpg" alt="">
+            </picture>
+            <div class="latest-news__item-info">
+              <div class="latest-news__item-date">19.07.2023</div>
+              <div class="latest-news__item-title">Новый бренд в портфолио – «AEH»</div>
+              <a href="" class="latest-news__item-link">Читать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <a href="/" class="logo">
+          <img src="assets/images/logo-footer.png" alt="" class="logo__img" style="">
+        </a>
+        <div class="footer__content">
+          <nav class="footer__menu">
+            <span class="footer__list-title mobile">Компания</span>
+            <ul class="footer__list"> <span class="footer__list-title">Компания</span>
+              <li class="footer__item first active"><a href="/" class="footer__item-link">Главная</a></li>
+              <li class="footer__item"><a href="catalog/" class="footer__item-link">Каталог</a></li>
+              <li class="footer__item"><a href="oborudovanie-v-nalichii/" class="footer__item-link">Оборудование в
+                  наличии</a></li>
+              <li class="footer__item"><a href="about.html" class="footer__item-link">О компании</a></li>
+              <li class="footer__item"><a href="blog/" class="footer__item-link">Статьи</a></li>
+              <li class="footer__item last"><a href="contacts.html" class="footer__item-link">Контакты</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__menu">
+            <span class="footer__list-title mobile">Каталог продукции</span>
+            <ul class="footer__list"> <span class="footer__list-title">Каталог продукции</span>
+              <li class="footer__item first"><a href="izmeritelnyie-ruki/" class="footer__item-link">Измерительные
+                  руки</a></li>
+              <li class="footer__item"><a href="kim/" class="footer__item-link">Стационарные КИМы</a></li>
+              <li class="footer__item"><a href="lazernyie-trekeryi/" class="footer__item-link">Лазерные трекеры</a></li>
+              <li class="footer__item"><a href="skaneryi/" class="footer__item-link">Измерительные сканеры</a></li>
+              <li class="footer__item"><a href="zuboizmeritelnyie-mashinyi/" class="footer__item-link">Зубоизмерительные
+                  машины</a></li>
+              <li class="footer__item"><a href="videoizmeritelnyie-mashinyi/"
+                  class="footer__item-link">Видеоизмерительные машины</a></li>
+              <li class="footer__item"><a href="sistemyi-dlya-kontrolya-valov/" class="footer__item-link">Системы для
+                  контроля валов</a></li>
+              <li class="footer__item"><a href="izmeritelnyie-golovki/" class="footer__item-link">Измерительные
+                  головки</a></li>
+              <li class="footer__item"><a href="multisensornyie-kim/" class="footer__item-link">Мультисенсорные КИМ</a>
+              </li>
+              <li class="footer__item last"><a href="programmnoe-obespechenie-dlya-izmeritelnyix-mashin/"
+                  class="footer__item-link">Программное обеспечение для измерительных машин</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__menu">
+            <ul class="footer__list">
+              <span class="footer__list-title last">Контакты</span>
+              <!-- <li class="footer__item">
+                <a href="tel:" class="footer__item-link">
+                  <img src="img/phone.svg" alt="" /> </a
+                >
+              </li> -->
+              <li class="footer__item">
+                <a href="mailto:info@3-dr.ru" class="footer__item-link"><img src="img/mail.svg" alt="">info@3-dr.ru</a>
+              </li>
+              <li class="footer__item">
+                <a href="contacts.html" class="footer__item-link"><img src="img/location.svg" alt="">г. Екатеринбург,
+                  ул. Волгоградская д. 49 а</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__item-link"><img src="img/time.svg" alt="">Пн — Пт: с 10.00 до 18.00</a>
+              </li>
+              <button class="footer__list-btn white js-open-modal" data-modal="1">СВЯЗАТЬСЯ</button>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copyright"> 2023 © ООО «3Д Решения» </span>
+        <span class="footer__politics">
+          <a href="policy.html" class="footer__politics-link">
+            Политика конфиденциальности</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
